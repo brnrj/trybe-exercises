@@ -5,3 +5,4 @@ let pessoaEstudante = "euMesmo";
 let hasbilidadesPessoaEstudante = 10;
 //Eu sou Tryber e...
 console.log("sucesso");
+//Pull para exercicio 2.2
