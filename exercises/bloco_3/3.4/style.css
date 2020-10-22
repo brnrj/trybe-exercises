@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-h2, h3 {
+h1, h2, h3, h4 {
     margin: 0 0 20px;
   }
   p {
@@ -53,6 +53,7 @@ h2, h3 {
     padding: 15px;
   }
   .article-small {
+    
     display: inline-block;
     width: 30%;
     margin-right: 10px;
