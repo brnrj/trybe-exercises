@@ -78,4 +78,5 @@ h2, h3 {
   .photo{
         width: 150px;
         border-radius: 100%;
+        margin-bottom: 15px;
   }
