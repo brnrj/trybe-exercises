@@ -220,5 +220,5 @@ if (salarioBruto < 1556.94){
 }else if (salarioBruto > 5189.82){
     let salarioBase = salarioBruto - inss_max
     salarioLiq = salarioBase - ((salarioBase * 27.5) / 100) + 869.36
-    console.log('Seu salário base é de ' + salarioLiq)
+    console.log('Seu salário líquido é de ' + salarioLiq)
 }
