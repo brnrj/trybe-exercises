@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p class = para id="paragraph">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p class = para id="second-paragraph">Segundo parágrafo!</p>
+
+    <script>
+      var paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      var titulo = document.getElementById("page-title").innerHTML = "Interestrelar"
+      var segParagrafo = document.getElementById("second-paragraph").innerHTML = "O dia hoje está do jeito que carioca não gosta."
+      var subtitulo = document.getElementById("subtitle").style.color = "grey"
+      var sub = document.getElementsByClassName("para")[1].style.color = "Green"
+      var tag = document.getElementsByTagName("p")[0].innerText = "Dias de luta, dias de glória."
+    </script>
+  </body>
+</html>
