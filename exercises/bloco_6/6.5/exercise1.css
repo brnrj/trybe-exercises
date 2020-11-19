@@ -1,0 +1,61 @@
+body {
+    font-size: large;
+    text-align: justify;
+}
+body p {
+    margin: 10px
+}
+
+h1 {
+    font-size: 25px;
+    margin-left: 5px;
+}
+h2 {
+    font-size: 25px;
+    margin-left: 5px
+}
+
+img {
+    max-width: 100%;
+    
+    
+}
+
+figure {
+    margin: 10px;
+    margin-bottom: 20px;
+    
+}
+
+@media screen and (min-width: 480px){
+   
+    body{
+        background-color: cornflowerblue;
+    }
+
+    #div1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #div1 figure {
+        width: 45%;
+    }
+}
+@media screen and (min-width: 1000px){
+
+    body{
+        font-size: x-large;
+        background-color: crimson;
+        margin: 40px;
+        max-width: 90%;
+    }
+
+    figcaption{
+        text-align: center;
+    }
+
+   
+
+}
