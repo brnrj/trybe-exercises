@@ -13,7 +13,12 @@ const student2 = {
   Git: 'Bom', // chave adicionada
 };
 
-const student = (value) => Object.assign(value);
+const student = (value) => {
+  const arrayKeys = Object.keys(value);
+  for (i in arrayKeys) {
+    console.log(`${arrayKeys[i]}, Nível :${value[arrayKeys[i]]}`);
+  }
+};
 
 console.log(student(student1));
 console.log(student(student2));
