@@ -1,0 +1,15 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#centro {
+    width: 90vw;
+    height: 100vh;
+    background: #333;
+    margin: 0 auto;
+}
+#topo{
+    width: 90vw;
+    height: 20vh;
+    background: #f00 ;
+}
