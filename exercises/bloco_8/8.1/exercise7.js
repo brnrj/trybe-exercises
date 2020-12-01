@@ -65,20 +65,25 @@ const books = [
 
 const expectedResult = false;
 
-function everyoneWasBornOnSecXX() {
-  let result = false;
-  books.every((element) => {
-    if (!(element.author.birthYear > 1900 && element.author.birthYear <= 2000)) {
-      result = true;
-    }
-  });
-  return result;
+function authorUnique() {
+  return books.every((everyBook) =>
+    books.some(
+      (someBook) =>
+        everyBook.author.birthYear === someBook.author.birthYear && everyBook.id !== someBook.id,
+    ),
+  );
 }
-// console.log(everyoneWasBornOnSecXX(books));
 
-// function everyoneWasBornOnSecXX() {
-//   return books.every(
-//     (element) => element.author.birthYear > 1900 && element.author.birthYear <= 2000,
-//   );
+// function authorUnique() {
+//   let unique = true;
+//   books.forEach((element, index) => {
+//     for (let i = index + 1; i < books.length; i += 1) {
+//       if (element.author.birthYear === books[i].author.birthYear) {
+//         unique = false;
+//       }
+//     }
+//   });
+//   return unique;
 // }
-assert.equal(everyoneWasBornOnSecXX(), expectedResult);
+console.log(authorUnique(books));
+assert.equal(authorUnique(), expectedResult);
