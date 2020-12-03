@@ -12,7 +12,7 @@ const grades = [
 function studentAverage() {
   return students.map((student, index) => ({
     name: student,
-    media: grades[index].reduce((acc, number) => acc + number, 0) / grades[index].length,
+    average: grades[index].reduce((acc, number) => acc + number, 0) / grades[index].length,
   }));
 }
 console.log(studentAverage(grades));
@@ -23,4 +23,4 @@ const expected = [
   { name: 'Maria Clara', average: 8.8 },
 ];
 
-// assert.deepStrictEqual(studentAverage(), expected);
+assert.deepStrictEqual(studentAverage(), expected);
