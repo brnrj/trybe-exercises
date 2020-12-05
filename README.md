@@ -1,1 +1,1 @@
-Espaço reservado para o desenvolvimento e aperfeiçoamento das minhas habilidades em desenvolvimento full-stack.
+Espaço reservado para o aperfeiçoamento das minhas habilidades em desenvolvimento full-stack.
